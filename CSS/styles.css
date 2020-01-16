@@ -1,0 +1,261 @@
+body {
+  background-color: #fcfafa;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #445c3c;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+
+}
+
+h2 {
+  color: #207561;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #719192;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #badfdb 6px;
+  width: 6%;
+  margin: 100px auto;
+  border-bottom: none;
+}
+
+a {
+  margin: 10px 25px;
+  color: #445c3c;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #badfdb;
+  text-decoration: none;
+}
+
+.title-section {
+  background-color: #e2f6f1;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 1rem 4.5rem;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  color: #207561;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-toggler {
+  border: 0;
+
+}
+
+.logo-img {
+  width: 55px;
+  position: sticky;
+
+}
+
+.header-desc {
+  font-size: 1.2rem;
+  color: #207561;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #e2f6f1;
+  position: relative;
+  padding-top: 50px;
+}
+
+
+
+.bottom-container {
+  /* background-color: #e2f6f1; */
+  background-color: #719192;
+  padding: 50px 0 20px;
+  margin-top: 50px;
+
+}
+
+/* About Section */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-img {
+  border-radius: 100px;
+}
+
+.skills-img {
+  width: 30%;
+  border-radius: 100%;
+  background-color: #99b19c;
+  float: left;
+  margin-right: 30px;
+}
+
+.travel-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+
+/* Projects Section */
+
+#projects .container-fluid {
+  margin-bottom: 50px;
+  padding: 0 15%;
+
+}
+
+
+.carousel-item {
+  text-align: left;
+  margin-top: 60px;
+  padding: 0 20%;
+
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+a .project-link {
+  text-decoration: none !important;
+}
+
+
+.project-title {
+  text-decoration: none;
+}
+
+.project-title:hover {
+  color: #445c3c;
+}
+
+.drum-img {
+  width: 40%;
+  float:left;
+  margin-right: 30px;
+  border-radius: 100%;
+
+
+}
+
+.simon-img {
+  width: 30%;
+  float:left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-cloud {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  right: 300px;
+  top: 55px;
+}
+
+.bottom-cloud {
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  left: 300px;
+  bottom: 130px;
+}
+
+.hills {
+  width: 600px;
+  height: 120px;
+  margin-top: 50px;
+}
+
+.copyright {
+  color: #badfdb;
+  font-size: 0.8rem;
+  padding: 30px 0;
+}
+
+
+
+/* Get In Touch Button */
+
+.butn {
+  background: #fcfafa;
+  background-image: -webkit-linear-gradient(top, #fcfafa, #207561);
+  background-image: -moz-linear-gradient(top, #fcfafa, #207561);
+  background-image: -ms-linear-gradient(top, #fcfafa, #207561);
+  background-image: -o-linear-gradient(top, #fcfafa, #207561);
+  background-image: linear-gradient(to bottom, #fcfafa, #207561);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Montserrat', sans-serif;
+  color: #458071;
+  font-size: 20px;
+  padding: 11px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #97c7bb;
+  background-image: -webkit-linear-gradient(top, #97c7bb, #409983);
+  background-image: -moz-linear-gradient(top, #97c7bb, #409983);
+  background-image: -ms-linear-gradient(top, #97c7bb, #409983);
+  background-image: -o-linear-gradient(top, #97c7bb, #409983);
+  background-image: linear-gradient(to bottom, #97c7bb, #409983);
+  text-decoration: none;
+}
