@@ -1,5 +1,5 @@
 
 
 $(".navbar-toggler").click(function() {
-  $(".navbar-toggler").css("border-color", "grey");
+  $(".navbar-toggler").css("outline", "none");
 });

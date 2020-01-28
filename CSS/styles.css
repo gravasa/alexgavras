@@ -4,6 +4,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
 }
 
 h1 {
@@ -54,6 +55,12 @@ a:hover {
   background-color: #e2f6f1;
 }
 
+#title .container-fluid {
+  background-color: #effad7;
+  padding-bottom: 30%;
+
+}
+
 /* Navbar */
 
 .navbar {
@@ -71,8 +78,10 @@ a:hover {
 
 }
 
-.navbar-toggler {
-  border: 0;
+.navbar-toggler:hover{
+background-color: #badfdb;
+opacity: 0.4;
+
 
 }
 
@@ -89,9 +98,9 @@ a:hover {
 }
 
 .top-container {
-  background-color: #e2f6f1;
-  position: relative;
-  padding-top: 50px;
+
+  padding-top: 70px;
+
 }
 
 
@@ -107,11 +116,14 @@ a:hover {
 /* About Section */
 
 .middle-container {
-  margin: 100px 0;
+  margin: 100px;
+
+
 }
 
 .profile-img {
-  border-radius: 100px;
+  border-radius: 50%/25%;
+  margin-bottom: 30px;
 }
 
 .skills-img {
@@ -148,10 +160,17 @@ a:hover {
 .carousel-item {
   text-align: left;
   margin-top: 60px;
-  padding: 0 20%;
+  padding: 0 20% 20%;
 
 }
 
+.carousel-inner {
+  padding-bottom: 100;
+}
+
+.simon {
+  padding-bottom: 60;
+}
 .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -173,22 +192,14 @@ a .project-link {
   color: #445c3c;
 }
 
-.drum-img {
-  width: 40%;
-  float:left;
-  margin-right: 30px;
-  border-radius: 100%;
-
-
-}
-
-.simon-img {
+.projects-img {
   width: 30%;
   float:left;
   margin-right: 30px;
   border-radius: 100%;
-}
 
+
+}
 
 
 .intro {
